@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Non-generic Collections">
+    <Position X="0.5" Y="0.5" Height="0.563" Width="3.25" />
+  </Comment>
+  <Class Name="System.Collections.ArrayList" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.DictionaryBase" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Hashtable" Collapsed="true">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Queue" Collapsed="true">
+    <Position X="2.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.ReadOnlyCollectionBase" Collapsed="true">
+    <Position X="2.5" Y="13" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.SortedList" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Stack" Collapsed="true">
+    <Position X="2.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.BitArray" Collapsed="true">
+    <Position X="2.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.CollectionBase" Collapsed="true">
+    <Position X="5" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.HybridDictionary" Collapsed="true">
+    <Position X="7.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.ListDictionary" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.NameObjectCollectionBase" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.NameValueCollection" Collapsed="true">
+    <Position X="2.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Collections.Specialized.OrderedDictionary" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.StringCollection" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Specialized.StringDictionary" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Array" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Collections.Specialized.BitVector32" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="System.Collections.IList" Collapsed="true" HideInheritanceLine="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerable" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.ICollection" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IDictionary" Collapsed="true" HideInheritanceLine="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Specialized.IOrderedDictionary" Collapsed="true" HideInheritanceLine="true">
+    <Position X="9.5" Y="3" Width="1.75" />
+    <InheritanceLine Type="System.Collections.ICollection" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Collection Interfaces">
+    <Position X="0.5" Y="0.5" Height="0.563" Width="3.25" />
+  </Comment>
+  <Interface Name="System.Collections.IList" HideInheritanceLine="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.ICollection" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerable">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.ICollection" HideInheritanceLine="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IDictionary" HideInheritanceLine="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.ICollection" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Specialized.IOrderedDictionary" HideInheritanceLine="true">
+    <Position X="8.5" Y="1.5" Width="1.75" />
+    <InheritanceLine Type="System.Collections.IDictionary" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.ICollection" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEnumerable&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.ICollection&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IList&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.ICollection&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;" HideInheritanceLine="true">
+    <Position X="6.5" Y="5.5" Width="2.75" />
+    <InheritanceLine Type="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.ISet&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.ICollection&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IReadOnlyCollection&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="0.5" Y="9.5" Width="2" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IReadOnlyDictionary&lt;TKey, TValue&gt;" HideInheritanceLine="true">
+    <Position X="5.25" Y="9.5" Width="3" />
+    <InheritanceLine Type="System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IReadOnlyList&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="3" Y="9.5" Width="1.75" />
+    <InheritanceLine Type="System.Collections.Generic.IReadOnlyCollection&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Concurrent.IProducerConsumerCollection&lt;T&gt;" HideInheritanceLine="true">
+    <Position X="8.75" Y="9.5" Width="2.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.ICollection" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IComparer&lt;T&gt;">
+    <Position X="6.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEnumerator&lt;T&gt;">
+    <Position X="3" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEqualityComparer&lt;T&gt;">
+    <Position X="8.75" Y="13.25" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerator">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
