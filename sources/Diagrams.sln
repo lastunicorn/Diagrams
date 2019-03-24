@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionDiagrams", "Colle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamDiagrams", "StreamDiagrams\StreamDiagrams.csproj", "{6EACC12E-015A-463E-AFE6-1393A4649A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDiagrams", "ThreadingDiagrams\ThreadingDiagrams.csproj", "{E1119EC4-6AD0-4570-A2A7-1D64763D56C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6EACC12E-015A-463E-AFE6-1393A4649A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EACC12E-015A-463E-AFE6-1393A4649A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EACC12E-015A-463E-AFE6-1393A4649A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1119EC4-6AD0-4570-A2A7-1D64763D56C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1119EC4-6AD0-4570-A2A7-1D64763D56C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1119EC4-6AD0-4570-A2A7-1D64763D56C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1119EC4-6AD0-4570-A2A7-1D64763D56C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
