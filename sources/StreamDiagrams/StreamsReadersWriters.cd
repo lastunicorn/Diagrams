@@ -55,13 +55,15 @@
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="System.Xml.XmlDictionaryReader" Collapsed="true">
-    <Position X="2.25" Y="6" Width="1.75" />
+  <Class Name="System.Xml.XmlNodeReader" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
     <TypeIdentifier />
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="System.Xml.XmlDictionaryWriter" Collapsed="true">
-    <Position X="11" Y="6" Width="1.75" />
+  <Class Name="System.Xml.XmlValidatingReader" Collapsed="true">
+    <Position X="6" Y="6" Width="1.75" />
     <TypeIdentifier />
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.IdentityModel.DelegatingXmlDictionaryReader" Collapsed="true">
     <Position X="1.75" Y="7.5" Width="2.75" />
@@ -79,15 +81,13 @@
     <Position X="10.75" Y="8.75" Width="2" />
     <TypeIdentifier />
   </Class>
-  <Class Name="System.Xml.XmlNodeReader" Collapsed="true">
-    <Position X="4.25" Y="6" Width="1.5" />
+  <Class Name="System.Xml.XmlDictionaryReader" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.75" />
     <TypeIdentifier />
-    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="System.Xml.XmlValidatingReader" Collapsed="true">
-    <Position X="6" Y="6" Width="1.75" />
+  <Class Name="System.Xml.XmlDictionaryWriter" Collapsed="true">
+    <Position X="11" Y="6" Width="1.75" />
     <TypeIdentifier />
-    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
