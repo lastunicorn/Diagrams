@@ -19,7 +19,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.Collections.Queue" Collapsed="true">
-    <Position X="2.5" Y="8.75" Width="1.5" />
+    <Position X="2.5" Y="8.75" Width="1.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
@@ -34,12 +34,12 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.Collections.Stack" Collapsed="true">
-    <Position X="2.5" Y="10.25" Width="1.5" />
+    <Position X="2.5" Y="10.25" Width="1.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.Collections.BitArray" Collapsed="true">
-    <Position X="2.5" Y="11.75" Width="1.5" />
+    <Position X="2.5" Y="11.75" Width="1.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
